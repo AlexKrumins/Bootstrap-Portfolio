@@ -1,0 +1,41 @@
+.navbar-brand{
+    color: white !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    background:#4aaaa5 !important;
+    font-size:24px;
+}
+body{
+    background-image:url("../images/concrete_seamless.png") !important;
+}
+
+.navbar div{
+    width:960px !important;
+}
+
+.container {
+    width: 960px !important;
+}
+
+h2 {
+    color: #4aaaa5 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    text-align-last: center !important;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    color:white !important;
+    background-color: gray;
+    border-top-width: 10px !important;
+    border-top-color: #4aaaa5 !important;
+  }
