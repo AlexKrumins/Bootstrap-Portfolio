@@ -8,12 +8,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+
     <title>Bootstrap-Index</title>
   </head>
+
   <body>
       <nav class="navbar navbar-light bg-light fixed-top">
-        <div class="container w-75">
-            <a class="navbar-brand bg-primary float-left">Alex Krumins</a>
+        <div class="container">
+            <a class="navbar-brand bg-primary float-left p-3">Alex Krumins</a>
               <span class="span-inline">
                   <ul class="nav float-right">
                       <li class="nav-item">
@@ -30,10 +34,11 @@
               </span>
           </div>
         </nav>
-          <div class="container w-75">
-              <h1>About Me</h1>
+        <br><br>
+          <div class="container mt-5 pt-4 pb-2 px-4 bg-white">
+              <h2 class="pb-3 mb-4 border-bottom">About Me</h2>
 
-              <img src="assets/images/cat.jpg" class="float-left" alt="Kitty-coo" width=200px>
+              <img src="assets/images/cat.jpg" class="float-left mr-3" alt="Kitty-coo" width=200px>
                 <span>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
@@ -41,6 +46,10 @@
 
               <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </span>
-          </well>
+            <footer class="footer border-top">
+              <div class="container mt-2 pt-1">
+                <span><small>Copyright ©</small></span>
+              </div>
+            </footer>
   </body>
 </html>
